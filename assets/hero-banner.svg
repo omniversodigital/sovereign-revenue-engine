@@ -1,0 +1,63 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Deep Background Gradient -->
+  <rect width="1200" height="420" rx="16" fill="url(#bg-gradient)"/>
+  
+  <defs>
+    <linearGradient id="bg-gradient" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#080714"/>
+      <stop offset="50%" stop-color="#140b2a"/>
+      <stop offset="100%" stop-color="#090518"/>
+    </linearGradient>
+    <linearGradient id="accent-purple" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+    <linearGradient id="accent-glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255, 255, 255, 0.03)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <circle cx="1080" cy="140" r="220" fill="url(#accent-glow)"/>
+  <circle cx="120" cy="280" r="180" fill="url(#accent-glow)"/>
+  <rect width="1200" height="420" rx="16" fill="url(#grid)"/>
+
+  <!-- Border -->
+  <rect x="1" y="1" width="1198" height="418" rx="15" fill="none" stroke="rgba(139, 92, 246, 0.35)" stroke-width="2"/>
+
+  <!-- Status Pill -->
+  <rect x="80" y="60" width="360" height="34" rx="17" fill="rgba(16, 185, 129, 0.1)" stroke="rgba(16, 185, 129, 0.4)" stroke-width="1"/>
+  <circle cx="102" cy="77" r="5" fill="#10b981"/>
+  <text x="120" y="82" fill="#10b981" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5">HIGH-FREQUENCY DEFI • OMNIVERSO DIGITAL</text>
+
+  <!-- Title -->
+  <text x="80" y="170" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="52" font-weight="800" letter-spacing="-1">SOVEREIGN REVENUE ENGINE</text>
+
+  <!-- Subtitle -->
+  <text x="80" y="225" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="400">Institutional Multi-DEX Flash Arbitrage, SIMD Vectors & 35-Module Execution Apex</text>
+
+  <!-- Divider -->
+  <rect x="80" y="260" width="1040" height="1" fill="rgba(255, 255, 255, 0.08)"/>
+
+  <!-- Badges -->
+  <g transform="translate(80, 295)">
+    <rect x="0" y="0" width="200" height="48" rx="8" fill="rgba(255, 255, 255, 0.03)" stroke="rgba(255, 255, 255, 0.08)"/>
+    <text x="16" y="20" fill="#64748b" font-family="monospace" font-size="10" font-weight="600">EXECUTION CORE</text>
+    <text x="16" y="38" fill="#a855f7" font-family="-apple-system, sans-serif" font-size="14" font-weight="700">35 APEX Execution Modules</text>
+
+    <rect x="220" y="0" width="210" height="48" rx="8" fill="rgba(255, 255, 255, 0.03)" stroke="rgba(255, 255, 255, 0.08)"/>
+    <text x="236" y="20" fill="#64748b" font-family="monospace" font-size="10" font-weight="600">ARBITRAGE LATENCY</text>
+    <text x="236" y="38" fill="#10b981" font-family="-apple-system, sans-serif" font-size="14" font-weight="700">Sub-150µs SIMD Operations</text>
+
+    <rect x="450" y="0" width="220" height="48" rx="8" fill="rgba(255, 255, 255, 0.03)" stroke="rgba(255, 255, 255, 0.08)"/>
+    <text x="466" y="20" fill="#64748b" font-family="monospace" font-size="10" font-weight="600">SMART CONTRACTS</text>
+    <text x="466" y="38" fill="#f43f5e" font-family="-apple-system, sans-serif" font-size="14" font-weight="700">Foundry & Solidity Audited</text>
+
+    <rect x="690" y="0" width="220" height="48" rx="8" fill="rgba(255, 255, 255, 0.03)" stroke="rgba(255, 255, 255, 0.08)"/>
+    <text x="706" y="20" fill="#64748b" font-family="monospace" font-size="10" font-weight="600">NETWORK COVERAGE</text>
+    <text x="706" y="38" fill="#38bdf8" font-family="-apple-system, sans-serif" font-size="14" font-weight="700">Base • Arbitrum • Ethereum</text>
+  </g>
+</svg>

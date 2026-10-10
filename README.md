@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/hero-banner.svg" alt="Sovereign Revenue Engine Banner" width="100%" />
+</p>
+
 # ⚡ Sovereign Revenue Engine
 ### Institutional DeFi Flash Arbitrage & Autonomous Apex Execution Matrix
 
