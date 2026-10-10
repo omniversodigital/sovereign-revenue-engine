@@ -1,0 +1,11 @@
+cache/
+out/
+broadcast/
+solidity-files-cache.json
+*.log.json
+__pycache__/
+*.py[cod]
+.env
+.env.local
+.DS_Store
+*.log
